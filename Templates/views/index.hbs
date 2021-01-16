@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>main</title>
+</head>
+<body>
+    <div>
+        {{>header}}
+        <p></p>
+
+        <p id="location-ui"></p>
+
+        <form>
+            <input placeholder="location">
+            <button>search</button>
+        </form>
+
+        <p id="condition"></p>
+
+        <div id="temp-feel">
+            <p id="temperature"></p>
+            <p id="feel"></p>
+        </div>
+        <p id="humidity"></p>
+
+        <div id="wind">
+            <p id="wind-speed"></p>
+            <p id="wind-dir"></p>
+        </div>
+
+        <p id="rain-chance"></p>
+        <p id="uv-index"></p>
+        <p id="pressure"></p>
+        <p id="visibility"></p>
+        <p id="cloud-cover"></p>
+    </div>
+    {{>footer}}
+</body>
+    <script src="/app.js"></script>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: lime;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
+
+#temp-feel {
+    display: flex;
+}
+
+#temperature {
+    padding-right: 10px;
+}
+
+#wind {
+    display: flex;
+}
+
+#wind-speed {
+    padding-right: 10px;
+}
+
+div {
+    padding: 0;
+}
